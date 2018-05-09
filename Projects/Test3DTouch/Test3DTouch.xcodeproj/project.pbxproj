@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A0490D7209FF665002F670A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0490D6209FF665002F670A /* AppDelegate.m */; };
+		8A0490DF209FF666002F670A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A0490DE209FF666002F670A /* Assets.xcassets */; };
+		8A0490E2209FF666002F670A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A0490E0209FF666002F670A /* LaunchScreen.storyboard */; };
+		8A0490E5209FF666002F670A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0490E4209FF666002F670A /* main.m */; };
+		8A0490ED209FF68D002F670A /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0490EC209FF68D002F670A /* TableViewController.m */; };
+		8A0490F0209FFB97002F670A /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0490EF209FFB97002F670A /* BViewController.m */; };
+		8A049109209FFD40002F670A /* UINavigationController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0490F2209FFD40002F670A /* UINavigationController+MemoryLeak.m */; };
+		8A04910A209FFD40002F670A /* MLeakedObjectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0490F6209FFD40002F670A /* MLeakedObjectProxy.m */; };
+		8A04910B209FFD40002F670A /* UIView+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0490F8209FFD40002F670A /* UIView+MemoryLeak.m */; };
+		8A04910C209FFD40002F670A /* UITouch+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0490FB209FFD40002F670A /* UITouch+MemoryLeak.m */; };
+		8A04910D209FFD40002F670A /* UISplitViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0490FC209FFD40002F670A /* UISplitViewController+MemoryLeak.m */; };
+		8A04910E209FFD40002F670A /* UIPageViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A0490FE209FFD40002F670A /* UIPageViewController+MemoryLeak.m */; };
+		8A04910F209FFD40002F670A /* UITabBarController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A049100209FFD40002F670A /* UITabBarController+MemoryLeak.m */; };
+		8A049110209FFD40002F670A /* MLeaksMessenger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A049101209FFD40002F670A /* MLeaksMessenger.m */; };
+		8A049111209FFD40002F670A /* UIViewController+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A049103209FFD40002F670A /* UIViewController+MemoryLeak.m */; };
+		8A049112209FFD40002F670A /* UIApplication+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A049106209FFD40002F670A /* UIApplication+MemoryLeak.m */; };
+		8A049113209FFD40002F670A /* NSObject+MemoryLeak.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A049107209FFD40002F670A /* NSObject+MemoryLeak.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A0490D2209FF665002F670A /* Test3DTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test3DTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A0490D5209FF665002F670A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A0490D6209FF665002F670A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A0490DE209FF666002F670A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A0490E1209FF666002F670A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A0490E3209FF666002F670A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A0490E4209FF666002F670A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A0490EB209FF68D002F670A /* TableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		8A0490EC209FF68D002F670A /* TableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		8A0490EE209FFB97002F670A /* BViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		8A0490EF209FFB97002F670A /* BViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		8A0490F2209FFD40002F670A /* UINavigationController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MemoryLeak.m"; sourceTree = "<group>"; };
+		8A0490F3209FFD40002F670A /* MLeaksMessenger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeaksMessenger.h; sourceTree = "<group>"; };
+		8A0490F4209FFD40002F670A /* UITabBarController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBarController+MemoryLeak.h"; sourceTree = "<group>"; };
+		8A0490F5209FFD40002F670A /* UIPageViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		8A0490F6209FFD40002F670A /* MLeakedObjectProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLeakedObjectProxy.m; sourceTree = "<group>"; };
+		8A0490F7209FFD40002F670A /* UIViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		8A0490F8209FFD40002F670A /* UIView+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MemoryLeak.m"; sourceTree = "<group>"; };
+		8A0490F9209FFD40002F670A /* NSObject+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MemoryLeak.h"; sourceTree = "<group>"; };
+		8A0490FA209FFD40002F670A /* UIApplication+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+MemoryLeak.h"; sourceTree = "<group>"; };
+		8A0490FB209FFD40002F670A /* UITouch+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITouch+MemoryLeak.m"; sourceTree = "<group>"; };
+		8A0490FC209FFD40002F670A /* UISplitViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UISplitViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		8A0490FD209FFD40002F670A /* MLeaksFinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeaksFinder.h; sourceTree = "<group>"; };
+		8A0490FE209FFD40002F670A /* UIPageViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		8A0490FF209FFD40002F670A /* MLeakedObjectProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLeakedObjectProxy.h; sourceTree = "<group>"; };
+		8A049100209FFD40002F670A /* UITabBarController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBarController+MemoryLeak.m"; sourceTree = "<group>"; };
+		8A049101209FFD40002F670A /* MLeaksMessenger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLeaksMessenger.m; sourceTree = "<group>"; };
+		8A049102209FFD40002F670A /* UINavigationController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MemoryLeak.h"; sourceTree = "<group>"; };
+		8A049103209FFD40002F670A /* UIViewController+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MemoryLeak.m"; sourceTree = "<group>"; };
+		8A049104209FFD40002F670A /* UISplitViewController+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UISplitViewController+MemoryLeak.h"; sourceTree = "<group>"; };
+		8A049105209FFD40002F670A /* UITouch+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITouch+MemoryLeak.h"; sourceTree = "<group>"; };
+		8A049106209FFD40002F670A /* UIApplication+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+MemoryLeak.m"; sourceTree = "<group>"; };
+		8A049107209FFD40002F670A /* NSObject+MemoryLeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MemoryLeak.m"; sourceTree = "<group>"; };
+		8A049108209FFD40002F670A /* UIView+MemoryLeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MemoryLeak.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A0490CF209FF665002F670A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A0490C9209FF665002F670A = {
+			isa = PBXGroup;
+			children = (
+				8A0490D4209FF665002F670A /* Test3DTouch */,
+				8A0490D3209FF665002F670A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A0490D3209FF665002F670A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A0490D2209FF665002F670A /* Test3DTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A0490D4209FF665002F670A /* Test3DTouch */ = {
+			isa = PBXGroup;
+			children = (
+				8A0490D5209FF665002F670A /* AppDelegate.h */,
+				8A0490D6209FF665002F670A /* AppDelegate.m */,
+				8A0490DE209FF666002F670A /* Assets.xcassets */,
+				8A0490E0209FF666002F670A /* LaunchScreen.storyboard */,
+				8A0490E3209FF666002F670A /* Info.plist */,
+				8A0490E4209FF666002F670A /* main.m */,
+				8A0490EB209FF68D002F670A /* TableViewController.h */,
+				8A0490EC209FF68D002F670A /* TableViewController.m */,
+				8A0490EE209FFB97002F670A /* BViewController.h */,
+				8A0490EF209FFB97002F670A /* BViewController.m */,
+				8A0490F1209FFD40002F670A /* MLeaksFinder */,
+			);
+			path = Test3DTouch;
+			sourceTree = "<group>";
+		};
+		8A0490F1209FFD40002F670A /* MLeaksFinder */ = {
+			isa = PBXGroup;
+			children = (
+				8A0490F2209FFD40002F670A /* UINavigationController+MemoryLeak.m */,
+				8A0490F3209FFD40002F670A /* MLeaksMessenger.h */,
+				8A0490F4209FFD40002F670A /* UITabBarController+MemoryLeak.h */,
+				8A0490F5209FFD40002F670A /* UIPageViewController+MemoryLeak.h */,
+				8A0490F6209FFD40002F670A /* MLeakedObjectProxy.m */,
+				8A0490F7209FFD40002F670A /* UIViewController+MemoryLeak.h */,
+				8A0490F8209FFD40002F670A /* UIView+MemoryLeak.m */,
+				8A0490F9209FFD40002F670A /* NSObject+MemoryLeak.h */,
+				8A0490FA209FFD40002F670A /* UIApplication+MemoryLeak.h */,
+				8A0490FB209FFD40002F670A /* UITouch+MemoryLeak.m */,
+				8A0490FC209FFD40002F670A /* UISplitViewController+MemoryLeak.m */,
+				8A0490FD209FFD40002F670A /* MLeaksFinder.h */,
+				8A0490FE209FFD40002F670A /* UIPageViewController+MemoryLeak.m */,
+				8A0490FF209FFD40002F670A /* MLeakedObjectProxy.h */,
+				8A049100209FFD40002F670A /* UITabBarController+MemoryLeak.m */,
+				8A049101209FFD40002F670A /* MLeaksMessenger.m */,
+				8A049102209FFD40002F670A /* UINavigationController+MemoryLeak.h */,
+				8A049103209FFD40002F670A /* UIViewController+MemoryLeak.m */,
+				8A049104209FFD40002F670A /* UISplitViewController+MemoryLeak.h */,
+				8A049105209FFD40002F670A /* UITouch+MemoryLeak.h */,
+				8A049106209FFD40002F670A /* UIApplication+MemoryLeak.m */,
+				8A049107209FFD40002F670A /* NSObject+MemoryLeak.m */,
+				8A049108209FFD40002F670A /* UIView+MemoryLeak.h */,
+			);
+			path = MLeaksFinder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A0490D1209FF665002F670A /* Test3DTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A0490E8209FF666002F670A /* Build configuration list for PBXNativeTarget "Test3DTouch" */;
+			buildPhases = (
+				8A0490CE209FF665002F670A /* Sources */,
+				8A0490CF209FF665002F670A /* Frameworks */,
+				8A0490D0209FF665002F670A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test3DTouch;
+			productName = Test3DTouch;
+			productReference = 8A0490D2209FF665002F670A /* Test3DTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A0490CA209FF665002F670A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Yue;
+				TargetAttributes = {
+					8A0490D1209FF665002F670A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 8A0490CD209FF665002F670A /* Build configuration list for PBXProject "Test3DTouch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A0490C9209FF665002F670A;
+			productRefGroup = 8A0490D3209FF665002F670A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A0490D1209FF665002F670A /* Test3DTouch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A0490D0209FF665002F670A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A0490E2209FF666002F670A /* LaunchScreen.storyboard in Resources */,
+				8A0490DF209FF666002F670A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A0490CE209FF665002F670A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A04910B209FFD40002F670A /* UIView+MemoryLeak.m in Sources */,
+				8A04910F209FFD40002F670A /* UITabBarController+MemoryLeak.m in Sources */,
+				8A049110209FFD40002F670A /* MLeaksMessenger.m in Sources */,
+				8A0490E5209FF666002F670A /* main.m in Sources */,
+				8A0490D7209FF665002F670A /* AppDelegate.m in Sources */,
+				8A0490F0209FFB97002F670A /* BViewController.m in Sources */,
+				8A0490ED209FF68D002F670A /* TableViewController.m in Sources */,
+				8A04910A209FFD40002F670A /* MLeakedObjectProxy.m in Sources */,
+				8A049113209FFD40002F670A /* NSObject+MemoryLeak.m in Sources */,
+				8A049109209FFD40002F670A /* UINavigationController+MemoryLeak.m in Sources */,
+				8A04910C209FFD40002F670A /* UITouch+MemoryLeak.m in Sources */,
+				8A04910D209FFD40002F670A /* UISplitViewController+MemoryLeak.m in Sources */,
+				8A049111209FFD40002F670A /* UIViewController+MemoryLeak.m in Sources */,
+				8A04910E209FFD40002F670A /* UIPageViewController+MemoryLeak.m in Sources */,
+				8A049112209FFD40002F670A /* UIApplication+MemoryLeak.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A0490E0209FF666002F670A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A0490E1209FF666002F670A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A0490E6209FF666002F670A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A0490E7209FF666002F670A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A0490E9209FF666002F670A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JX244CCJVA;
+				INFOPLIST_FILE = Test3DTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.test.Test3DTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A0490EA209FF666002F670A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JX244CCJVA;
+				INFOPLIST_FILE = Test3DTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yue.test.Test3DTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A0490CD209FF665002F670A /* Build configuration list for PBXProject "Test3DTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0490E6209FF666002F670A /* Debug */,
+				8A0490E7209FF666002F670A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A0490E8209FF666002F670A /* Build configuration list for PBXNativeTarget "Test3DTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A0490E9209FF666002F670A /* Debug */,
+				8A0490EA209FF666002F670A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A0490CA209FF665002F670A /* Project object */;
+}
