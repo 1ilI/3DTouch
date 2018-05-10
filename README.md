@@ -5,7 +5,7 @@
 
 ## 问题
 
-不论是自己写的 demo 还是在[开发者指南和样例代码](https://developer.apple.com/library/content/samplecode/ViewControllerPreviews/Introduction/Intro.html#//apple_ref/doc/uid/TP40016546) 上下载的样例工程，在加入了 MLeaksFinder 后均能发现在 iOS10.3.1 和 iOS 11.3 下有泄漏。
+不论是自己写的 demo 还是在 [开发者指南和样例代码](https://developer.apple.com/library/content/samplecode/ViewControllerPreviews/Introduction/Intro.html#//apple_ref/doc/uid/TP40016546) 上下载的样例工程，在加入了 [MLeaksFinder](https://github.com/Tencent/MLeaksFinder) 后均能发现在 iOS10.3.1 和 iOS 11.3 下有泄漏。
 
 问题出在 `UIViewControllerPreviewingDelegate` 的 Pop 代理函数上
 
@@ -27,9 +27,11 @@ func previewingContext(_ previewingContext: UIViewControllerPreviewing, commit v
 ## 解决
 
 ```objc
-BViewController *pushVC = [[BViewController alloc] init];
-pushVC.parameter = [(BViewController *)viewControllerToCommit parameter];
-[self.navigationController pushViewController:pushVC animated:YES];
+- (void)previewingContext:(id <UIViewControllerPreviewing>)previewingContext commitViewController:(nonnull UIViewController *)viewControllerToCommit {
+    BViewController *pushVC = [[BViewController alloc] init];
+    pushVC.parameter = [(BViewController *)viewControllerToCommit parameter];
+    [self.navigationController pushViewController:pushVC animated:YES];
+}
 ```
 
 ![no-leaks](https://raw.githubusercontent.com/1ilI/1ilI.github.io/master/resource/2018-05/3DTouch-iOS11-noleaks.gif)
