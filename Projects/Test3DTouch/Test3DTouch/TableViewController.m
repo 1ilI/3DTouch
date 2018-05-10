@@ -74,17 +74,16 @@ static NSString * const CellIdentifier = @"CellReuseIdentifier";
 - (void)previewingContext:(id <UIViewControllerPreviewing>)previewingContext commitViewController:(nonnull UIViewController *)viewControllerToCommit {
     
     //方式一
-    [self showViewController:viewControllerToCommit sender:self];
+//    [self showViewController:viewControllerToCommit sender:self];
     
     //方式二
 //    [self.navigationController pushViewController:viewControllerToCommit animated:YES];
 //    [self presentViewController:viewControllerToCommit animated:YES completion:nil];
     
     //方式三
-//    BViewController *previewingVC = (BViewController *)viewControllerToCommit;
-//    BViewController *pushVC = [[BViewController alloc] init];
-//    pushVC.parameter = previewingVC.parameter;
-//    [self.navigationController pushViewController:pushVC animated:YES];
+    BViewController *pushVC = [[BViewController alloc] init];
+    pushVC.parameter = [(BViewController *)viewControllerToCommit parameter];
+    [self.navigationController pushViewController:pushVC animated:YES];
 }
 
 @end
